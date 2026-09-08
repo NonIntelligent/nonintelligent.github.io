@@ -123,7 +123,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: al-folio # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
-permalink: /blog/:title/
+permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -231,7 +231,7 @@ theme: al_folio_core
 # Plug-ins
 plugins:
   - jekyll-3rd-party-libraries
-  - jekyll-archives-v2
+  - jekyll-archives-v2 # used for categories and tags
   - jekyll-cache-bust
   - jekyll-email-protect
   - jekyll-feed
